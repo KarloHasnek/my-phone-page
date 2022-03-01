@@ -1,0 +1,63 @@
+body {
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  background-color: rgb(216, 216, 216);
+  height: 2000px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 22px;
+  padding-left: 10px;
+  color: whitesmoke;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #131313;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.flex-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  font-size: 20px;
+}
+
+.link {
+  color: orangered;
+  padding: 30px;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.link1:hover {
+  color: rgb(128, 0, 248);
+}
+
+.link2:hover {
+  color: limegreen;
+}
+
+.link3:hover {
+  color: yellow;
+}
+
+.link4:hover {
+  color: rgb(4, 182, 253);
+}
+
+h2 {
+  display: inline-block;
+}
