@@ -1,0 +1,35 @@
+.specifikacije {
+  margin: 0;
+  background-image: linear-gradient(to right, #67c2ee, #ff6f08);
+  height: 550px;
+}
+
+.specifikacije__tablica {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  padding: 4px;
+  width: 100%;
+}
+
+.tablica__body {
+  padding: 10px;
+  border: 2px solid;
+  color: black;
+  height: 150px;
+  width: 300px;
+}
+
+.tablica__header {
+  padding: 10px;
+  border: 2px solid;
+  color: black;
+  height: 150px;
+  width: 300px;
+}
+
+.specifikacije__naslov {
+  font-size: 4rem;
+  margin-top: 0;
+  padding-top: 30px;
+}

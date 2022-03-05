@@ -1,0 +1,17 @@
+.banner {
+  margin-top: 80px;
+  margin-bottom: -4px;
+}
+
+.banner__photo {
+  width: 100%;
+}
+
+.banner__title {
+  position: absolute;
+  font-size: 75px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
