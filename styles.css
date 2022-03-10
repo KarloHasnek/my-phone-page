@@ -1,4 +1,6 @@
+@import "./styles/helpers.css";
 @import "./styles/base.css";
 @import "./styles/header.css";
 @import "./styles/banner.css";
-@import "./styles/table.css";
+@import "./styles/specifications.css";
+@import "./styles/similar-devices.css";

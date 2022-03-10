@@ -1,0 +1,27 @@
+.similar-devices {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-top: 40px;
+}
+
+.similar-devices__title {
+  padding: 60px 0px 30px;
+}
+
+.phone__photo {
+  width: 300px;
+}
+
+.phone__name {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.phone__price {
+  color: #ff6f08;
+  font-size: 20px;
+}
