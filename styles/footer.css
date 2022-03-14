@@ -1,0 +1,54 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__newsletter {
+  margin: 10px 0;
+  color: white;
+}
+
+.newsletter__label {
+  margin-left: 15px;
+  padding-right: 5px;
+  color: white;
+}
+
+.newsletter__textbox {
+  margin: 0 5px;
+}
+
+.newsletter__button {
+  border-radius: 10px;
+  color: black;
+  background-color: #4aa9d8;
+}
+
+.kontakt {
+  margin-left: auto;
+  margin-right: 105px;
+}
+
+.kontakt__title {
+  color: white;
+}
+
+.kontakt__information--mail,
+.kontakt__information--phone {
+  text-decoration: none;
+  color: #4aa9d8;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+}
+
+.autor {
+  display: block;
+  margin-right: 5px;
+  text-align: end;
+  color: white;
+}

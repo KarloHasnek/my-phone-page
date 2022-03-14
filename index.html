@@ -126,9 +126,40 @@
     </main>
 
     <br />
+    <hr />
 
-    <footer>
-      <span>footer</span>
+    <footer class="footer">
+      <form class="footer__newsletter">
+        <label class="newsletter__label" for="email"
+          >Pretplata na newsletter:</label
+        >
+        <input
+          class="newsletter__textbox"
+          type="text"
+          name="text"
+          id="email"
+          placeholder="email"
+          required
+        />
+        <button class="newsletter__button" type="submit">
+          <strong>Pretplati me</strong>
+        </button>
+      </form>
+      <br />
+      <div class="kontakt">
+        <span class="kontakt__title">Kontakt informacije:</span><br />
+        <address class="kontakt__information">
+          <a class="kontakt__information--mail" href="mailto:random@gmail.com"
+            ><span>Email: </span> random@gmail.com</a
+          ><br />
+          <a class="kontakt__information--phone" href="tel:+385 95 579 3487"
+            ><span>Mobitel: </span>+385 95 579 3487</a
+          >
+        </address>
+      </div>
     </footer>
+    <br />
+    <small class="copyright">&copy; Sva prava pridržana</small><br />
+    <small class="autor">Karlo Hasnek</small>
   </body>
 </html>
